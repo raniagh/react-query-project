@@ -25,5 +25,17 @@
       "id": 2,
       "name": "friend2"
     }
+  ],
+  "users": [
+    {
+      "id": "rania@example.com",
+      "channelId": "rch"
+    }
+  ],
+  "channels": [
+    {
+      "id": "rch",
+      "courses": ["react", "vue", "angular"]
+    }
   ]
 }
