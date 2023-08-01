@@ -23,11 +23,11 @@ export const useSuperHeroesData = (onSuccess, onError) => {
       enabled: false, */
       onSuccess,
       onError,
-      //data transformation or filtering
+      /*  //data transformation or filtering
       select: (data) => {
         const heroNames = data.data.map((hero) => hero.name);
         return heroNames;
-      },
+      }, */
     }
   );
 };
